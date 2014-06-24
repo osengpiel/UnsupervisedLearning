@@ -3,6 +3,7 @@
 *.lo
 *.o
 *.obj
+*.gch
 
 # Compiled Dynamic libraries
 *.so
@@ -21,3 +22,6 @@
 *.app
 
 program
+
+#vim
+*.swp

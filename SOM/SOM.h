@@ -1,3 +1,6 @@
+#ifndef _SOM
+#define _SOM
+
 #include<vector>
 
 class SOM
@@ -18,4 +21,10 @@ public:
 private:
 	int SIZE;
 	int DIMENSIONALITY;
+
+protected:
+	void setSize(int size);
+	void setDimensionality(int dimension);
 };
+
+#endif
